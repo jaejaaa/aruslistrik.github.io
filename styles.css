@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+body {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    
+    background-image: url(https://th.bing.com/th/id/OIP.kv7Glb-xTT9bj_DfZUIk9gHaEc?w=254&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+}
+
+.Kelompok {
+    text-align: left;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.Kelompok h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.Kelompok p {
+    margin: 5px 0;
+    
+}
+
+header {
+    font-family: 'Roboto';
+    text-align: center;
+    padding: 0px 0;
+    background-color: #eee;
+    background-image: url(https://th.bing.com/th/id/OIP.kv7Glb-xTT9bj_DfZUIk9gHaEc?w=254&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7);
+}
+
+header h1 {
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-family: 'Roboto';
+    margin-top: 0;
+}
+
+.formula {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.formula p {
+    margin: 5px 0;
+}
+
+.formula ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.example {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.example p {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* New CSS for Sejarah Arus Listrik */
+.sejarah-arus-listrik {
+    background-image: url('https://static.cdntap.com/tap-assets-prod/wp-content/uploads/sites/24/2021/12/penemu-listrik-lead.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.sejarah-arus-listrik h3,
+.sejarah-arus-listrik p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Navbar CSS */
+nav {
+    background: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav .navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav .navbar li {
+    margin: 0 15px;
+}
+
+nav .navbar li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav .navbar li a:hover {
+    text-decoration: underline;
+}
+
+.gambar-ohm {
+    background-image: url(https://pinkspotvapors.com/wp-content/uploads/2017/02/ohm-symbol.png);
+    background-size: cover;
+    background-position: right;
+    padding: 20px;
+    color: rgb(3, 3, 3);
+    border-radius: 10px;
+}
+section:hover h2{
+    color: dimgrey;
+}
+section {
+    margin-bottom: 4rem;
+    padding: 3rem;
+    border-left: 10px solid #858585;
+    border-right: 10px solid #858585; /* purple border color */
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+    background-color: #fff;
+  }
+  section:hover{
+    color: #333;
+    box-shadow: 0 2px 8px black;
+  }
